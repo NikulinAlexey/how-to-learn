@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .page {
@@ -19,18 +20,15 @@ body {
 
 /* === logo === */
 .logo {
-  height: 32px;
-  width: 228px;
   z-index: 3;
-  display: block;
 }
 
 .logo__place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-
-
+  height: 32px;
+  width: 228px;
 }
 
 .logo__place_footer {}
@@ -46,6 +44,7 @@ body {
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  display: flex;
 }
 
 .header__title {
@@ -53,10 +52,8 @@ body {
   font-weight: 600;
   line-height: 96px;
   z-index: 3;
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
   display: flex;
-  justify-content: start;
   align-items: center;
   width: 730px;
 }
@@ -65,9 +62,12 @@ body {
   position: absolute;
   bottom: 30px;
   left: 64px;
-  display: flex;
   justify-content: end;
   width: 338px;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__link {}
