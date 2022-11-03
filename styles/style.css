@@ -17,6 +17,7 @@
 
 
 /* === header === */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -40,12 +41,13 @@
   height: 568px;
   width: 568px;
 }
-/* === / header === */
+/* === /header === */
 
 
 
 
 /* ===  description === */
+
 .description {}
 
 .two-columns {}
@@ -59,11 +61,13 @@
 .two-columns__brief {}
 
 .two-columns__span-accent {}
-/* === / description === */
+
+/* === /description === */
 
 
 
 /* ===  digits === */
+
 .digits {}
 
 .section-title {}
@@ -77,7 +81,8 @@
 .table__heading {}
 
 .table__text {}
-/* === / digits === */
+
+/* === /digits === */
 
 
 
@@ -91,11 +96,12 @@
 .feynman__subtitle {}
 
 .feynman__link {}
-/* === / feynman === */
+/* === /feynman === */
 
 
 
 /* ===  kaufman === */
+
 .kaufman {}
 
 .kaufman__triangle {}
@@ -115,11 +121,12 @@
 .table__heading_theme_dark {}
 
 .table__text_theme_dark {}
-/* === / kaufman === */
+/* === /kaufman === */
 
 
 
 /* === footer === */
+
 .footer {
   margin: 60px 0 0 40px;
 }
@@ -141,4 +148,4 @@
 .footer__column-link {}
 
 .footer__columns {}
-/* === / footer === */
+/* === /footer === */
