@@ -17,7 +17,6 @@ body {
 
 }
 
-
 /* === logo === */
 .logo {
   z-index: 3;
@@ -45,6 +44,7 @@ body {
   max-height: 756px;
   position: relative;
   display: flex;
+  border: 2px solid red;
 }
 
 .header__title {
@@ -94,24 +94,48 @@ body {
 
 /* === /header === */
 
+.content {
 
+}
 
 
 /* ===  description === */
 
-.description {}
+.description {
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
 
-.two-columns {}
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border: 2px solid blue;
+}
+
+.two-columns__brief {
+  width: 175px;
+  border: 2px solid green;
+
+}
+
+.two-columns__main-text {
+  border: 2px solid green;
+}
+
+.two-columns__paragraph {
+
+}
 
 .two-columns__brief {}
 
-.two-columns__main-text {}
-
-.two-columns__paragraph {}
-
-.two-columns__brief {}
-
-.two-columns__span-accent {}
+.two-columns__span-accent {
+  font-weight: bold;
+}
 
 /* === /description === */
 
@@ -179,7 +203,9 @@ body {
 /* === footer === */
 
 .footer {
-  margin: 60px 0 0 40px;
+  margin: 60px 0 40px 0;
+  border: 2px solid red;
+  box-sizing: content-box;
 }
 
 .footer__column_content_copyright {}
