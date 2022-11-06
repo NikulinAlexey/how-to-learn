@@ -21,7 +21,7 @@ body {
 }
 
 .background-color_gray {
-  background-color:  #f2f2f2 ;
+  background-color:  #f2f2f2;
 }
 
 .text_blue-color {
@@ -108,7 +108,6 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  display: block;
   z-index: 1;
 }
 
