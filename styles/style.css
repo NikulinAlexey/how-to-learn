@@ -46,7 +46,9 @@ body {
   font-size: 24px;
   font-weight: normal;
 }
+
 /* === logo === */
+
 .logo {
   z-index: 3;
 }
@@ -65,8 +67,6 @@ body {
 }
 
 /* === /logo === */
-
-
 
 /* === header === */
 
@@ -101,8 +101,6 @@ body {
   font-weight: normal;
 }
 
-.header__link {}
-
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -125,11 +123,10 @@ body {
 
 /* === /header === */
 
-.content {}
-
 /* ===  description === */
 
 .description {
+  margin-top: 100px;
   display: flex;
   box-sizing: border-box;
 }
@@ -139,7 +136,7 @@ body {
   min-width: 784px;
   display: flex;
   justify-content: space-between;
-  margin: 100px auto 0 auto;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -175,8 +172,6 @@ body {
 
 /* === /description === */
 
-
-
 /* ===  digits === */
 
 .digits {
@@ -185,7 +180,7 @@ body {
 }
 
 .table {
-  margin: 100px auto;
+  margin: 0 auto;
   width: 1100px;
   justify-content: space-between;
 }
@@ -215,8 +210,6 @@ body {
 }
 
 /* === /digits === */
-
-
 
 /* ===  feynman === */
 .feynman {
@@ -257,8 +250,6 @@ body {
 }
 
 /* === /feynman === */
-
-
 
 /* ===  kaufman === */
 
@@ -305,10 +296,7 @@ body {
   margin: 90px;
 }
 
-.table__text_theme_dark {}
 /* === /kaufman === */
-
-
 
 /* === footer === */
 
