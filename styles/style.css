@@ -263,17 +263,37 @@ body {
 /* ===  kaufman === */
 
 .kaufman {
-  margin: 90px 0;
-  border: 2px solid black;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: top right -210px;
+  background-size: 877px 877px;
+  display: flex;
+  flex-direction: column;
 }
 
-.kaufman__triangle {}
+.section-title_theme_dark {
+  width: 60%;
+  margin: 90px auto 0 auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
 
-.section-title_theme_dark {}
+.section-subtitle_theme_derk {
+  width: 60%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 
-.section-subtitle_theme_derk {}
+.table_theme_dark {
+  width: 1100px;
+  margin: 0 auto 90px auto;
+}
 
-* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -281,7 +301,9 @@ body {
   margin-top: 80px;
 }
 
-.table__heading_theme_dark {}
+.table__heading_theme_dark {
+  margin: 90px;
+}
 
 .table__text_theme_dark {}
 /* === /kaufman === */
