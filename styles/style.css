@@ -198,6 +198,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style-type: none;
 }
 
 .table__heading {}
@@ -206,6 +207,8 @@
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
 }
 
 .table__text {
@@ -263,14 +266,12 @@
 /* ===  kaufman === */
 
 .kaufman {
-  background-image: url(../images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
-  background-position: top right -210px;
-  background-size: 877px 877px;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: #1f1f1f;
   color: white;
+  border: 2px solid green;
 }
 
 .section-title_theme_dark {
@@ -279,6 +280,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .section-title_theme_dark_text {
@@ -294,6 +296,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark_text {
@@ -309,17 +312,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-top: 80px;
+  border: 2px solid red;
 
 }
 
-.table__heading_theme_dark {
-}
+.table__heading_theme_dark {}
 
 .table__heading_theme_dark_text {
   line-height: 1.15;
@@ -328,6 +332,18 @@
   margin: 0;
 }
 
+.kaufman-triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  border: 2px solid red;
+}
+
+.kaufman-triangle_image {
+  width: 877px;
+  height: 877px;
+  border: 2px solid green;
+}
 /* === /kaufman === */
 
 /* === footer === */
@@ -372,8 +388,7 @@
   margin: 0;
 }
 
-.footer__column-heading {
-}
+.footer__column-heading {}
 
 .footer__column-heading_text {
   line-height: 30px;
