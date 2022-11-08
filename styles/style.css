@@ -47,7 +47,7 @@
   z-index: 3;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -55,7 +55,7 @@
   width: 228px;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   height: 32px;
   width: 228px;
 }
