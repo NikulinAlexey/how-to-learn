@@ -10,11 +10,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.text_blue-color {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .section-title {
   max-width: 60%;
   margin: 0 auto;
@@ -88,7 +83,7 @@
   bottom: 30px;
   left: 64px;
   justify-content: end;
-  width: 338px;
+  width: 388px;
   text-decoration: none;
   line-height: 25px;
   font-size: 18px;
@@ -96,13 +91,14 @@
   z-index: 2;
 }
 
-.header__link_text-blue {
+.header__link {
   color:  #2f80ed;
   text-decoration: none;
 }
 
 .header__paragraph {
   margin: 0;
+  padding: 0;
 }
 
 .header__main-illustration {
