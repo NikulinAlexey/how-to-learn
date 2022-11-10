@@ -71,8 +71,7 @@
   width: 730px;
   margin: 0;
   padding: 0;
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -265,7 +264,6 @@
 }
 
 .section-title_theme_dark {
-  max-width: 60%;
   margin: 90px auto 0 auto;
   padding: 0;
   text-align: center;
@@ -278,7 +276,6 @@
 }
 
 .section-subtitle_theme_dark {
-  max-width: 60%;
   margin: 20px auto 0 auto;
   padding: 0;
   text-align: center;
@@ -313,7 +310,7 @@
 }
 
 .kaufman-triangle {
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: contain;
   width: 877px;
   height: 877px;
