@@ -8,6 +8,7 @@
 .logo_place_footer {
   height: 32px;
   width: 228px;
+  z-index: 3;
 }
 
 .footer__columns {
