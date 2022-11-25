@@ -6,7 +6,6 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
 
-
 .body {
   margin: 0;
   padding: 0;
@@ -17,26 +16,6 @@
   min-width: 1100px;
   margin: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-.section-title {
-  max-width: 60%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  max-width: 60%;
-  margin: 20px auto 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
 /* === logo === */
