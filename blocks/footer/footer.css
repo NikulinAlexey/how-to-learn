@@ -5,6 +5,11 @@
   color: white;
 }
 
+.logo_place_footer {
+  height: 32px;
+  width: 228px;
+}
+
 .footer__columns {
   justify-content: space-between;
   width: 90%;
