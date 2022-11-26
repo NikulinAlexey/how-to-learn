@@ -1,21 +1,19 @@
 .techniques {
+  margin-top: 100px;
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  border: 3px solid green;
 }
 
 .section-title {
   max-width: 60%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   padding: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  border: 1px solid green;
-
 }
 
 .section-subtitle {
@@ -26,18 +24,15 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid green;
 }
 
 .cards {
   max-width: 920px;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
-  flex-wrap: wrap;
-  border: 2px solid black;
-
 }
 
 .cards__item {
@@ -45,28 +40,32 @@
   width: 240px;
   margin: 60px 100px 0 0;
   padding: 0;
-  border: 1px solid green;
 }
 
 .cards__item:nth-of-type(3n) {
   margin-right: 0;
 }
 
+@media only screen and (max-width: 1171.5px) {
+  .cards__item:nth-of-type(3n) {
+    margin: 60px 100px 0 0;
+  }
+}
+
 .cards__image {
   width: 160px;
   height: 160px;
   margin: 0 40px;
-  border: 1px solid red;
+  border-radius: 50%;
 }
 
 .cards__title {
   text-align: center;
-  margin: 43px 0 0 0;
+  margin: 43px 0 0;
   padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  border: 1px solid green;
 }
 
 .cards__description {
@@ -76,5 +75,4 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
 }

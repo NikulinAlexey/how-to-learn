@@ -1,0 +1,42 @@
+.resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  max-width: 60%;
+  margin: 100px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  max-width: 60%;
+  margin: 20px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.resources__logo-zone {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 80px auto 217px auto;
+}
+
+.resources__link {
+  box-sizing: border-box;
+  width: 270px;
+  height: 38px;
+  display: flex;
+}
+
+.resources__logo {
+  margin: auto;
+}
