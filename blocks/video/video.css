@@ -1,8 +1,8 @@
 .video {
+  box-sizing:border-box;
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 3px solid green;
 }
 
 .section-title {
@@ -13,7 +13,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  border: 1px solid green;
 }
 
 .section-subtitle {
@@ -24,21 +23,19 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid green;
 }
 
 .video__iframes {
   overflow: visible;
   display: flex;
+  justify-content: space-between;
   margin: 50px auto 100px auto;
-  border: 1px solid green;
+  padding: 0;
+  width: 1050px;
 }
 
 .video__iframe {
-  width: 515px;
-  height: 316px;
-  border: 1px solid red;
-
+  padding: 0;
 }
 
 .video__filler {
