@@ -66,6 +66,8 @@
 }
 
 .header__square-pic {
+  animation: rotation 20s linear infinite;
+  overflow: hidden;
   width: 568px;
   height: 568px;
   background: #2f80ed;
