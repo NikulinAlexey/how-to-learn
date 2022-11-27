@@ -36,6 +36,8 @@
 
 .video__iframe {
   padding: 0;
+  height: 316px;
+  width: 515px;
 }
 
 .video__filler {

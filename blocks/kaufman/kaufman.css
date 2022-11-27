@@ -70,7 +70,6 @@
 
 .kaufman__triangle {
   background-image: url(/images/kaufman-triangle.svg);
-  animation: rotation 20s linear infinite;
   background-size: contain;
   width: 877px;
   height: 877px;
