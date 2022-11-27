@@ -1,50 +1,10 @@
+@import url(__link/resources__link.css);
+@import url(__logo/resources__logo.css);
+@import url(__logo-zone/resources__logo-zone.css);
+@import url(section-subtitle/section-subtitle.css);
+@import url(section-title/section_title.css);
+
 .resources {
   display: flex;
   flex-direction: column;
-}
-
-.section-title {
-  max-width: 60%;
-  margin: 100px auto 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  max-width: 60%;
-  margin: 20px auto 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.resources__logo-zone {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 80px auto 217px auto;
-}
-
-.resources__link {
-  box-sizing: border-box;
-
-  display: flex;
-  border-radius: 5px;
-  box-shadow:none;
-  transition: box-shadow .3s ease-in-out;
-}
-
-.resources__link:hover {
-  box-shadow: 5px 5px 10px #1f1f1f;
-}
-
-.resources__logo {
-  margin: auto;
-  width: 270px;
-  height: 38px;
 }

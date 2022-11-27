@@ -1,3 +1,9 @@
+@import url(__link/header__link.css);
+@import url(__main-illustration/header__main-illustration.css);
+@import url(__square-pic/header__square-pic.css);
+@import url(__subtitle/header__subtitle.css);
+@import url(__title/header__title.css);
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -7,70 +13,4 @@
   align-items: center;
   overflow: hidden;
   background-color: #f2f2f2;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  height: 32px;
-  width: 228px;
-  z-index: 3;
-}
-
-.header__title {
-  font-size: 102px;
-  font-weight: 600;
-  line-height: 96px;
-  z-index: 3;
-  width: 730px;
-  margin: 0;
-  padding: 0;
-  margin-left: 64px;
-}
-
-.header__subtitle {
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  justify-content: end;
-  width: 388px;
-  text-decoration: none;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-}
-
-.header__link {
-  color:  #2f80ed;
-  text-decoration: none;
-  transition: opacity .3s ease-in-out;
-  opacity: 1;
-}
-
-.header__link:hover {
-  opacity: .7;
-  border-bottom: 1px solid #2f80ed;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  background: #2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
 }

@@ -1,56 +1,9 @@
+@import url(section-subtitle/section-subtitle.css);
+@import url(section-title/section-title.css);
+@import url(table/table.css);
+
 .digits {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-}
-
-.section-title {
-  max-width: 60%;
-  margin: 100px auto 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  max-width: 60%;
-  margin: 20px auto 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table {
-  margin: 0 auto 100px auto;
-  padding: 0;
-  width: 1100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.table__cell {
-  width: 250px;
-  margin-top: 60px;
-  list-style-type: none;
-}
-
-.table__heading {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-}
-
-.table__text {
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 0;
 }
