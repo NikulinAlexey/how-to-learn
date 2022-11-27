@@ -10,6 +10,15 @@
 @import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/description/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/digits/section-subtitle/section-subtitle.css);
+@import url(../blocks/digits/section-title/section-title.css);
+@import url(../blocks/digits/table/table.css);
+@import url(../blocks/digits/table/__cell/table__cell.css);
+@import url(../blocks/digits/table/__heading/table__heading.css);
+@import url(../blocks/digits/table/__text/table__text.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/oakley/oakley.css);
