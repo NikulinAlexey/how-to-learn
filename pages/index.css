@@ -41,10 +41,15 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/kaufman/section-subtitle/_theme/_dark/section-subtitle_theme_dark.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/kaufman/section-title/_theme/_dark/section-title_theme-dark.css);
 @import url(../blocks/kaufman/table/__cell/table__cell.css);
+@import url(../blocks/kaufman/table/__cell/_theme/_dark/table_cell_theme_dark.css);
 @import url(../blocks/kaufman/table/__heading/table__heading.css);
+@import url(../blocks/kaufman/table/__heading/_theme/_dark/table__heading_theme_dark.css);
 @import url(../blocks/kaufman/table/__text/table__text.css);
+@import url(../blocks/kaufman/table/__text/_theme/_dark/table__text_theme_dark.css);
 
 @import url(../blocks/resources/resources.css);
 
